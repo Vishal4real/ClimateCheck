@@ -1,0 +1,114 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    border: 1px solid black;
+    width: 450px;
+    height: 500px;
+    margin: auto;
+    border-radius: 15px;
+    border: none;
+    margin-top: 50px;
+    background-image: linear-gradient(to bottom, #000c54, #000e5c, #011064, #02126d, #031475, #05157b, #071780, #091886, #0c198a, #0f1a8e, #111b93, #141c97);
+}
+
+.container-main{
+    margin-top: 55px;
+    color: rgb(238, 229, 229);
+    letter-spacing: 2px;
+}
+.top-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 55px;
+    display: flex;
+    height: fit-content; 
+    gap: 13px;
+}
+.top-bar input{
+    display: flex;
+    width: 236px;
+    height: 38px;
+    background: #ebbffc;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    color: #2d2d30;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    background: #ebbffc;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.search-icon:hover{
+    color: black;
+    background-color:#d49aeb ;
+}
+.cloud-icon{
+    width: 180px;
+    height: 170px;
+}
+.weather-image{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.weather-temp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 45px;
+    font-weight: 500;
+}
+.weather-loc{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.data-container{
+    display: flex;
+    margin-top: 28px;
+    color: white;
+    justify-content: center;
+}
+.element{
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+.data{
+    font-size: 19px;
+    font-weight: 400;
+
+}
+
+.text{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.icon{
+    margin-top: 10px;
+}
